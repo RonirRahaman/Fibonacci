@@ -1,0 +1,54 @@
+body{
+    
+    background-image: url("bg.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+body > h1{
+    color: white;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+
+#result {
+    overflow-wrap: anywhere;
+    text-overflow: clip;
+    margin-left: 3px;
+    max-width: 508px;
+    line-height: 1.8;
+    color: white;
+    margin: 15px;
+    letter-spacing: 3px;
+}
+.butn{
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    border: #2d682f;
+    padding: 8px 25px;
+    font-size: large;
+    background-color: #4CAF50;
+    color: white;
+}
+.butn:hover{
+    background-color: white; 
+    color: #4CAF50;
+}
+#box1 {
+    margin: 10px;
+    padding: 5px 5px;
+}
+#box2 {
+    margin: 10px;
+    padding: 5px 5px;
+}
+.spam-tex{
+    margin: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.spam-tex{
+    color: rgba(255, 232, 101, 0.808);
+}
